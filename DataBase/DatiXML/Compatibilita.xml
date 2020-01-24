@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<IMTSDB_NEW xmlns="http://tempuri.org/IMTSDB_NEW.xsd">
+  <xs:schema id="IMTSDB_NEW" targetNamespace="http://tempuri.org/IMTSDB_NEW.xsd" xmlns:mstns="http://tempuri.org/IMTSDB_NEW.xsd" xmlns="http://tempuri.org/IMTSDB_NEW.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="IMTSDB_NEW" msdata:IsDataSet="true" msdata:MainDataTable="http_x003A__x002F__x002F_tempuri.org_x002F_IMTSDB_NEW.xsd_x003A_Compatibilita" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Compatibilita">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Val_Compatibilita" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  
+  <Compatibilita>
+    <Val_Compatibilita>A</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>B</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>C</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>D</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>E</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>F</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>G</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>H</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>J</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>K</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>L</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>N</Val_Compatibilita>
+  </Compatibilita>
+  <Compatibilita>
+    <Val_Compatibilita>S</Val_Compatibilita>
+  </Compatibilita>
+ 
+  
+</IMTSDB_NEW>

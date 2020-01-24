@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Exception_Handler>
+    <Id_Ex_Handler>1</Id_Ex_Handler>
+    <Timestamp>2019-12-05T10:22:55.9944892+01:00</Timestamp>
+    <Message>Il file 'C:\Users\SurfacePro\source\repos\IMTS_MINUTES\Database\DatiXML\Minute.xml' non è stato trovato.</Message>
+    <StackTrace>   in System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   in System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   in System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   in System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   in System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   in System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   in System.Threading.CompressedStack.runTryCode(Object userData)
+   in System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   in System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   in System.Xml.XmlTextReaderImpl.OpenUrl()
+   in System.Xml.XmlTextReaderImpl.Read()
+   in System.Xml.XmlTextReader.Read()
+   in System.Xml.XmlReader.MoveToContent()
+   in System.Data.DataSet.ReadXml(XmlReader reader, XmlReadMode mode, Boolean denyResolving)
+   in System.Data.DataSet.ReadXml(String fileName, XmlReadMode mode)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 244</StackTrace>
+    <TargetSite>Void WinIOError(Int32, System.String)</TargetSite>
+    <Function />
+    <Source>mscorlib</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>3</Id_Ex_Handler>
+    <Timestamp>2019-12-05T12:39:28.7330962+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 251</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>5</Id_Ex_Handler>
+    <Timestamp>2019-12-05T12:54:48.7976591+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 251</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>7</Id_Ex_Handler>
+    <Timestamp>2019-12-05T13:06:17.156648+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 252</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+</DocumentElement>

@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<IMTSDB_NEW xmlns="http://tempuri.org/IMTSDB_NEW.xsd">
+  <xs:schema id="IMTSDB_NEW" targetNamespace="http://tempuri.org/IMTSDB_NEW.xsd" xmlns:mstns="http://tempuri.org/IMTSDB_NEW.xsd" xmlns="http://tempuri.org/IMTSDB_NEW.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="IMTSDB_NEW" msdata:IsDataSet="true" msdata:MainDataTable="http_x003A__x002F__x002F_tempuri.org_x002F_IMTSDB_NEW.xsd_x003A_Classe_Rischio" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Classe_Rischio">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Val_Classe_Rischio" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+ 
+  <Classe_Rischio>
+    <Val_Classe_Rischio> 1.1</Val_Classe_Rischio>
+  </Classe_Rischio>
+
+
+  <Classe_Rischio>
+    <Val_Classe_Rischio>1.2</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>1.3</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>1.4</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>1.5</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>1.6</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>2.1</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>2.2</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>2.3</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>3</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>4.1</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>4.2</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>4.3</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>5.1</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>S.2</Val_Classe_Rischio>
+  </Classe_Rischio>
+
+  <Classe_Rischio>
+    <Val_Classe_Rischio>6.1</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>6.2</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>7</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>8</Val_Classe_Rischio>
+  </Classe_Rischio>
+  <Classe_Rischio>
+    <Val_Classe_Rischio>9</Val_Classe_Rischio>
+  </Classe_Rischio>
+</IMTSDB_NEW>

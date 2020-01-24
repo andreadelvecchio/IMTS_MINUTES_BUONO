@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Exception_Handler>
+    <Id_Ex_Handler>1</Id_Ex_Handler>
+    <Timestamp>2019-12-16T07:54:06.0270844+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+</DocumentElement>

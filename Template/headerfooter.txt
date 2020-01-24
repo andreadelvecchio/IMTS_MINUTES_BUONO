@@ -1,0 +1,16 @@
+{\header
+
+{\pard\fi0\qd
+This is a header
+\par}
+
+}
+
+{\footer
+
+{\pard\fi0\qc
+{\fs30 
+This is a footer
+}\par}
+
+}

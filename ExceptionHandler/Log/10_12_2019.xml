@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Exception_Handler>
+    <Id_Ex_Handler>1</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:34:29.1677325+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>3</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:34:57.7743521+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>5</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:35:39.1064951+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>7</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:37:42.3880257+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>9</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:38:03.24991+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+  <Exception_Handler>
+    <Id_Ex_Handler>11</Id_Ex_Handler>
+    <Timestamp>2019-12-10T05:38:26.3319211+01:00</Timestamp>
+    <Message>Nessuna riga alla posizione 0.</Message>
+    <StackTrace>   in System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   in System.Data.DataRowCollection.get_Item(Int32 index)
+   in IMTS_MINUTES.BusinessLogic.BLMinutes.BLWriteMiutes.getMinuteRow() in C:\Users\SurfacePro\source\repos\IMTS_MINUTES\BusinessLogic\BLMinutes\BLWriteMiutes.cs:riga 322</StackTrace>
+    <TargetSite>NodePath GetNodeByIndex(Int32)</TargetSite>
+    <Function />
+    <Source>System.Data</Source>
+  </Exception_Handler>
+</DocumentElement>
